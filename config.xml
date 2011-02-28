@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- ONTAP configuration -->
+	<ontap>
+		<aggregate>
+			<!--<enable>true</enable> -->
+			<name>aggr0</name>
+		</aggregate>
+
+		<VolumeLunRation>1.3</VolumeLunRation>
+
+		<initiatorGroup>
+			<name>abiGroup</name>
+		</initiatorGroup>
+	</ontap>
+
+	<!-- Filer configuration -->
+	<filer>
+		<host>@@HOST@@</host>
+		<user>@@USER@@</user>
+		<password>@@PASSWORD@@</password>
+	</filer>
+	
+	<debug>true</debug>
+</config>
